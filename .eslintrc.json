@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next", "prettier"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "semi": [2, "never"],
+    "quotes": ["error", "double"]
+  }
 }
